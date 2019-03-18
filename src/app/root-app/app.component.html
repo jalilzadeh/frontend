@@ -1,7 +1,11 @@
 <app-toolbar></app-toolbar>
-<div>
-    <app-sidebar></app-sidebar>
-    <router-outlet></router-outlet>
-</div>
 
+<div class="row">
+    <div class="column">
+        <app-sidebar></app-sidebar>
+    </div>
+    <div class="main">
+        <router-outlet></router-outlet>
+    </div>
+  </div>
 

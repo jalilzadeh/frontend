@@ -1,0 +1,15 @@
+ 
+.row {
+    display: flex;
+  }
+  
+  .column {
+      background-color: lightcyan;
+      float: left;
+      width: 200px;
+  }
+
+  .main {
+      width: 100%;
+      padding-left: 15px;
+  }

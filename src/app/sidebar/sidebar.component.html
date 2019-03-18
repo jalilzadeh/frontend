@@ -1,3 +1,3 @@
-<p>
-  sidebar works!
-</p>
+<div *ngFor="let item of sideMenu; let i = index" class="side-item">
+    <button mat-button class="btns" (click)="onClick(i)">{{ item.title }}</button>
+</div>
